@@ -1,0 +1,83 @@
+<html lang="en">
+    <head>
+        <title>MMB Moon Events </title>
+        <link rel="icon" href="Pimg/icon.png">
+        <style>
+            form{
+                text-align: center;
+                background-repeat: no-repeat;
+                background-position: center;
+                background: linear-gradient(rgb(49, 1, 63),black);
+                width: 82%;
+                height: 60%;
+                margin:0px;
+                padding: 120px; 
+            }
+            button{
+                border-radius: 10px;  
+                height: 50px;
+                font-weight: bold;
+                background:linear-gradient(rgb(124, 93, 93),black,rgb(56, 41, 56));
+                color: rgb(71, 3, 71);
+                border: 3px solid rgb(70, 2, 66);
+
+            }
+            
+            button:hover{
+                font-size: 20px;
+                font-family:cursive;
+                background-color: silver;
+                box-shadow: 2px 2px 10px 4px purple;
+            }
+            a{
+                color: rgb(77, 1, 71);
+                font-size: 20px;
+                text-decoration: none;      
+            }
+            img{
+            animation: move 15s infinite  ;
+            height: 650px;
+            width: 300px;
+            position: absolute;
+            top: -200px;
+            animation-fill-mode:backwards;
+            /* animation: backwards; */
+        }
+        @keyframes move{
+            0%{
+                top: -450px;            
+            }
+
+            20%{
+                top: -300px;
+            }
+            40%{
+                top: -150px;
+            }
+            80%{
+                top: -50px;
+            }
+            100%{
+                top: 20px;
+            }
+           
+        }
+
+
+        </style>
+        
+    </head>
+    <body>
+        <img src="pimg/hanging-lady-long.png" alt="">
+        <form action="">
+            <h1 style="text-shadow: 3px 3px 3px rgb(77, 1, 71);font-family:cursive;" >If you Forget your password <br> Write your email address here please </h1>
+            <input type="email" style="height: 30px; width: 220px; background-color: silver;border-radius: 5px;">
+            <br><br>
+            <button style="width: 80px; font-size: 18px;">Send</button>
+            <br><br><br>
+            <button><a href="Project.html" title="Main page" target="_top" >Back to Home Page</a></button>&nbsp;&nbsp;
+            <button><a href="Login.html"  title="Log in"> Back to Login page</a></button>
+
+        </form>       
+    </body>
+</html>

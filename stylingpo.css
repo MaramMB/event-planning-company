@@ -1,0 +1,575 @@
+*{
+    text-decoration: none;
+    
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar {
+    width: 1.1rem;
+   }
+   ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2.5px 2px rgba(96, 33, 104, 0.5);
+    border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(90deg, #94469e, #3d4a59);
+        border-radius: 1rem;
+      }
+      
+      ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(270deg, #570363, #3d4a59, #570363);
+      }
+.first{
+    width: max-content;
+    background:rgb(10, 0, 10); 
+    margin-left: -8px;
+    margin-top: -8px;
+    height:max-content;
+    background-blend-mode: screen;
+}
+.about ,.Servies ,.skils ,.team ,.act{
+    font-family: 'Poppins', sans-serif; 
+
+}
+ h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.tittle{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    position: relative;
+    
+}
+.first .cont  {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .cont{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:110px;
+
+}
+.about .cont .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.about .cont .right .text span{
+   color: rgb(89, 1, 100);
+
+}
+.mm{
+    clip-path: polygon(40% 0, 100% 0, 100% 100%, 8% 100%);
+    width: 772px;
+    height: 620px;
+    opacity: 0.8;
+    margin-left: 105px;
+    
+}
+.home{
+    color: rgb(197, 199, 181);
+    margin-left: 120px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: -40px;
+    text-align: justify;
+}
+.sp{
+    color: rgb(85, 0, 102);
+    font-size: 30px;
+
+}
+.left img{
+    /* clip-path : circle(50% at 50% 50%); */
+    height: 350px;
+    width: 350px;
+    margin-left: 100px;
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow:2px 2px 10px rgb(42, 1, 56)
+
+}
+.about .cont .right{
+    width: 58%;
+}
+
+.about .cont .right .text p{
+    text-align: justify;
+    font-size: 19px;
+    font-weight: 100;
+}
+tr a{
+    font-size: 17px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-align: right;
+    color: rgb(134, 4, 160); 
+    padding: 4px;
+    border-radius: 2px;
+    border: 1.5px solid rgb(180, 6, 180);
+    background: transparent;
+    font-weight: bold;
+    opacity: 0.7;
+    font-family: 'Permanent Marker', cursive;
+    width: 100%;
+
+}
+tr a:hover{
+color: rgb(134, 4, 160); 
+box-shadow:3px 1px 15px 4px rgba(240, 56, 255, 211);
+background-color: rgb(23, 20, 24);
+}
+.Servies ,.team{
+color: #fff;
+background: #111;
+}
+.Servies .cont{
+width: 1080px;
+margin-left: 10%;
+padding-bottom:20px;
+display: flex;
+flex-wrap: wrap;
+
+}
+.Servies .maram{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;            
+}
+.her{
+padding:10px 30px 10px 30px;
+margin-left: 40px;
+opacity: 1;
+background: rgb(100, 2, 119);
+color:whitesmoke;
+border-radius: 8px;
+text-decoration: none;
+font-size: 22px;
+ top: 40px;
+ font-weight: 300;
+ margin-top: 10px;
+ transition: all 0.2s;
+ 
+}
+.her:hover{
+box-shadow:1px 1px 8px 4px rgba(240, 56, 255, 211);
+background: rgba(224, 220, 224, 0.521);
+color:rgb(117, 4, 114) ;
+
+}
+
+.Servies .cont .card {
+height: 270px;
+width: 320px;
+background: rgba(34, 34, 34, 0.781);
+text-align: center;
+border-radius: 6px;
+cursor: pointer;
+margin: 30px auto 10px auto;
+position: relative;
+transition: all 0.75s;
+}
+.Servies .cont .card  .i{
+font-size: 40px;
+color: rgb(89, 1, 100);
+margin-top: 5px;
+margin-bottom: 12px;
+
+}
+
+.Servies .cont .card .text{
+font-size: 25px;
+font-weight: 500;
+margin: 10px 0 7px 0;
+font-size: 22px;
+}
+.Servies .cont .card .box{
+padding: 20px 20px 20px 20px;
+transition: all 0.3s ease;
+position:absolute;
+text-align: center;
+transition: all 2s;
+font-size: 13px;
+}
+.Servies .cont .card:hover .box{
+transform:scale(1.05);
+   
+}
+
+.Servies .cont .card:hover {
+background-color: rgba(73, 4, 82, 0.493);
+   
+}
+.Servies .cont .card:hover .i{
+color: whitesmoke;
+
+   
+}            
+.skils .cout{
+margin-bottom: 130px;
+margin-top: 92px;
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content:space-around;
+}
+.skils .cout .left .text p{
+text-align: justify;
+font-size: 19px;
+font-weight: 100;
+margin-bottom: 120px;
+}
+.skils .cout .left .text {
+font-size: 20px;
+font-weight: 600;
+margin-top: 20px;
+}
+.skils .cout .righ .bars{
+margin-bottom: 15px;
+width: 450px;
+
+}
+.skils .cout .righ .bars .info{
+display: flex;
+align-items: center;
+justify-content:space-between;
+position: relative;
+
+}
+.skils .cout .righ .bars span{
+font-weight: 500;
+font-size: 18px;
+}
+
+.skils .cout .left{
+width: 50%;
+}
+.skils .cout .righ .bars .line{
+height: 6px;
+width: 100%;
+background: rgba(116, 114, 114, 0.342);
+border-radius: 5px;
+margin-top: -6px;
+}
+.team .maram{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;            
+align-items: center;
+}
+.team .caro {
+display: flex;
+flex-wrap: wrap;
+padding-bottom:20px;
+}
+.team .carousel{
+width: 74%;
+margin-right: 30px;
+margin-left: 200px;
+}
+.team .carousel .card{
+text-align: center;
+height: 300px;
+width: 315px;
+background: rgba(34, 34, 34, 0.603);
+text-align: center;
+border-radius: 10px;
+padding-top: 5px;
+cursor: pointer;
+margin: 5px 5px 5px 5px;
+position: relative;
+transition: all 3s ease;
+background-blend-mode: screen;
+
+}
+.team .carousel .card:hover{
+transform: scale(1.05);
+}
+.team .carousel .card:hover .box{
+transform: scale(1.05);
+}
+.team .carousel .card:hover img{
+border: 5px solid #fff;
+}
+.team .carousel .card img{
+height: 140px;
+width: 140px;
+object-fit: cover;
+border-radius: 50%;
+border: 5px solid rgb(42, 1, 56);
+margin-top: -10px;
+}
+.team .caro .card .text{
+font-size: 25px;
+font-weight: 500;
+margin: 5px 10px 0 5px;
+/* margin-bottom: 2px; */
+}
+.team .caro .card  .box{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+transition: all 3s ease;
+padding: 20px 20px 20px 20px;
+position:absolute;
+text-align: center;
+transition: all 2s;
+font-size: 13px;
+}
+.team .carousel .card:hover{
+background: rgb(100, 2, 119);
+
+}
+
+.owl-dot{
+height: 13px;
+width: 13px;
+margin: 0 5px;
+outline: none !important;
+border-radius: 50%;
+transition: all 0.3s ease;
+border: 2px solid rgb(100, 2, 119) !important;
+}
+.owl-dot:hover{
+      background: rgb(100, 2, 119) !important;
+
+}
+
+.owl-dots{
+    width: 100px;
+    transition: all 0.3s ease;
+    margin:  20px auto 0 auto;
+}
+.owl-dot.active{
+width: 35px;
+border-radius: 14px;
+}
+.act .cont .left{
+width: calc(70% - 30px);
+/* width: 50%; */
+margin-left: 40px;
+display: flex;
+}
+.act .cont .left .text {
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+.act .cont .left .text p{
+text-align: justify;
+font-size: 18px;
+font-weight: 100;
+margin-right: 150px;
+
+}
+.act .cont .left .icon{
+margin: 10px 0;
+}
+.act .cont .row {
+display: flex;
+height: 65px;
+align-items: center;
+margin-bottom: 10px;
+}
+.act .cont .row .info{
+margin-left: 30px;
+}
+.act .cont .row .fa-user,.fa-map-marker-alt ,.fa-envelope {
+font-size: 25px;
+color: rgb(72, 5, 75);
+}
+.act .cont .info .head{
+font-weight: 500;
+}
+.act .cont .info .sub{
+color: #333;
+}
+.act .cont .left{
+display: flex;
+align-items: center;
+justify-content:space-between;
+position: relative;
+
+}
+.cont .right form .fields{
+display: flex;
+}
+.cont .right form .field{
+
+height: 40px;
+width: 200%;
+margin-bottom: 10px;
+}
+form .name{
+margin-right: 10px;
+
+}
+.right form textarea{
+height: 80px;
+resize: none;
+}
+.cont .right form .fields 
+{
+height: 40px;
+width: 200%;
+margin-bottom: 10px;
+}
+.cont .right form .field input, textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.act .cont button{
+height: 35px;
+width: 180px;
+margin-top: 300px;
+margin-left: -150px;
+background: rgb(72, 5, 75);
+color: #fff;
+font-size: 18px;
+border-radius: 6px;
+font-weight: 300; 
+cursor: pointer;
+transition: all 0.3s ease;
+border:2px solid rgb(72, 5, 75);
+} 
+.act .cont button:hover{
+color: rgb(72, 5, 75);
+background: none;
+
+}
+form .field:hover{
+border-radius: 7px;
+border:2px solid rgb(72, 5, 75);
+}
+footer{
+background: #111;
+padding: 10px ;
+color: #fff;
+font-size: 15px;
+font-family: sans-serif;
+text-align: center;
+margin-top: 30px;
+font-weight: 200;
+}
+footer span a{
+color: rgb(134, 7, 141);
+text-decoration: none;
+font-weight: 700;
+}
+footer span a:hover{
+text-decoration: underline white;
+}
+#myBtn {
+    height: 50px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: none; 
+    position: fixed; 
+    bottom: 15px; 
+    right: 30px; 
+    z-index: 9999; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(72, 5, 75); 
+    color: #fff; 
+    cursor: pointer; 
+    padding: 10px;
+    border-radius: 10px; 
+    font-size: 30px;
+}
+#myBtn:hover {
+background-color: rgba(102, 102, 102, 0.685);
+    border:2px solid rgb(72, 5, 75);
+    color:rgb(72, 5, 75) ;
+         }
+    .lab{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 80px;
+        justify-content:space-between;
+        position: relative;
+        width:50%;
+        padding-right: 200px;
+    }
+    .media{
+        width:90%;
+        padding: auto;
+        margin-left:40px;
+        padding-bottom: 15px;
+    }
+    .social{
+        text-align:center;
+        padding-left:100px;
+        align-items: right;
+        height: 8%;  
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+       .Social .so{
+            text-align: center;
+            font-size: 30px;
+            padding:12px 12px 12px 12px;
+            border-radius: 20px;   
+            margin-top: 10px; 
+            margin-right: 7px;
+            transition: all 1s ; 
+            width: 40px;
+            border: 2px solid rgb(72, 5, 75);
+            transform:all 0.5s ease;
+            position: relative;
+            color:rgb(78, 6, 112);
+        }
+        .Social a:hover {
+            animation: move 4s ;
+            box-shadow: 2px 2px 15px rgb(72, 5, 75); 
+            background: purple;
+            color: #fff;
+            
+        }
+        @keyframes move{
+            0%{
+                transform: translate(10%,-10%) rotate(-30deg);
+            }
+            25%{
+                transform: translate(10%,10%) rotate(60deg);
+            }
+            50%{
+                transform: translate(-10%,10%) rotate(-60deg);
+            }
+            75%{
+                transform: translate(10%,10%) rotate(30deg);
+            }           
+            100%{
+                transform: translate(0,0) rotate(0);
+            }          
+        }
+
+
